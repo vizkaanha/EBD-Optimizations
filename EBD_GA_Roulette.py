@@ -1,30 +1,3 @@
-# Roulette version intentionally tuned for comparison study.
-# Comparative Study: Tournament vs Roulette Selection
-# Purpose:
-# 1. Compare SIC optimization performance
-# 2. Compare convergence and diversity
-# 3. Compare execution time
-# 4. Determine best GA selection method for EBD optimization
-
-# Lb   = Leakage before GA
-# La   = Leakage after GA
-# Sb   = Self-Interference Cancellation before GA
-# Sa   = Self-Interference Cancellation after GA
-# Vb   = VSWR before GA
-# Va   = Residual VSWR after GA
-# Xopt = Optimized balancing reactance
-# Stat = SIC status
-# Ga   = Antenna reflection coefficient
-# Gb   = Balance reflection coefficient
-# POP  = Population size
-# GEN  = Number of generations
-# CXPB = Crossover probability
-# MUTPB= Mutation probability
-# xb   = Optimized reactance value
-
-# ELECTRICAL BALANCE DUPLEXER (EBD)
-# GENETIC ALGORITHM OPTIMIZATION
-
 import random
 import time
 
